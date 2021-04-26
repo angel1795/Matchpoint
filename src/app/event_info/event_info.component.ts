@@ -12,6 +12,7 @@ export class Event_infoComponent implements OnInit {
   ngOnInit() {
   }
 
+padel_img="https://images.pexels.com/photos/4536850/pexels-photo-4536850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
   event={
     creador:"fer",
     participantes:24,
