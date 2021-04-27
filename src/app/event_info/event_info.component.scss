@@ -1,0 +1,23 @@
+.container_info{
+
+  align-items: center;
+  margin-top: 10vh;
+  display: flex;  /*display: flex; el cual vuelve al contenedor un elemento flex*/
+
+  align-items: center;  /*justify-content: center; le decimos a los elementos del contenedor flex que se ubiquen al centro del eje principal eje horizontal*/
+  color: #fff;
+  justify-content: center;
+  background-color: #0c002b;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border-radius: 10px;
+}
+img{
+  margin: 40px;
+  border-radius: 10px;
+}
+.description{
+  h3{
+    padding-top: 60px;
+  }
+}
