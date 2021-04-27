@@ -2,7 +2,8 @@
   <h3>EVENTS</h3>
   <div class="row">
     <div class="col-sm" *ngFor="let event of events_array">
-      <div class="card" style="width: 18rem;">
+      <div href="" class="selection-card">
+      <div class="card" style="width: 17rem;">
         <img src="{{event.img}}" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">{{event.text}}</p>
@@ -10,18 +11,21 @@
         </div>
       </div>
     </div>
+    </div>
   </div>
 </div>
 <div class="container sports">
   <h3>SPORTS</h3>
   <div class="row">
     <div class="col-sm" *ngFor="let event of sports_array">
-      <div class="card" style="width: 18rem;">
+      <div href="" class="selection-card">
+      <div class="card" style="width: 17rem;">
         <img src="{{event.img}}" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">{{event.text}}</p>
           <button type="button" class="btn btn-primary">Apuntate</button>
         </div>
+      </div>
       </div>
     </div>
   </div>

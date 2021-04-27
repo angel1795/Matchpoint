@@ -1,0 +1,50 @@
+.container {
+  border-radius: 10px;
+  margin-top: 10px;
+  &.events {
+    background-color: rgb(39, 163, 185);
+  }
+
+  &.sports {
+    background-color: rgb(148, 199, 7);
+  }
+
+  h3 {
+    padding: 15px;
+    color: #ffff;
+  }
+  .row{
+    padding: 10px;
+    .col-sm {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 15px;
+
+
+      .selection-card {
+        text-decoration: none;
+        .card {
+          color: #ffff;
+          background: rgba(255, 255, 255, 0.15);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          backdrop-filter: blur(3.0px);
+          -webkit-backdrop-filter: blur(3.0px);
+          border-radius: 10px;
+
+        }
+
+        &:hover {
+          margin-top: -20px;
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.527);
+
+        }
+      }
+    }
+  }
+
+}
+
+
+
+
