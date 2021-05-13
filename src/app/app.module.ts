@@ -18,21 +18,24 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { ReactiveFormsModule } from '@angular/forms';
 import {MatIconModule} from '@angular/material/icon';
 import { LandingComponent } from './landing/landing.component';
+import { ChatComponent } from './chat/chat.component';
+import { UserprofileComponent } from './userprofile/userprofile.component';
 
 
 @NgModule({
-  declarations: [
+  declarations: [		
     AppComponent,
-
       CardsComponent,
       FooterComponent,
-
       HomeMenuComponent,
+      LandingComponent,
       CarouselSearcherComponent,
       LoginComponent,
       RegisterComponent,
       Boton_unirseComponent,
       Event_infoComponent,
+      ChatComponent,
+      UserprofileComponent
    ],
   imports: [
     BrowserModule,
