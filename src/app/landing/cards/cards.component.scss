@@ -42,9 +42,62 @@
       }
     }
   }
-
 }
+/*.container {
+  border-radius: 10px;
+  margin-top: 10px;
+  &.events {
+    background-color: rgb(39, 163, 185);
+  }
 
+  &.sports {
+    background-color: rgb(148, 199, 7);
+  }
+  .dataInfo {
+    h3 {
+      padding: 15px;
+      color: rgb(206, 22, 22);
+      font-weight: 500;
+    }
+    .row{
+      padding: 10px;
+      .col-sm {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+
+        .selection-card {
+          text-decoration: none;
+          .card {
+            color: #ffff;
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(3.0px);
+            -webkit-backdrop-filter: blur(3.0px);
+            border-radius: 10px;
+          }
+          &:hover {
+            margin-top: -20px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.527);
+          }
+        }
+      }
+    }
+    .carousel-control-next {
+      right: -10%;
+    }
+    .carousel-control-prev {
+      left: -10%;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+      color: rgb(252, 248, 10);
+    }
+  }
+}
+*/
 
 
 

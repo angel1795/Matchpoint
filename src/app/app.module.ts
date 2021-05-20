@@ -1,11 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Boton_unirseComponent } from './boton_unirse/boton_unirse.component';
 import { Event_infoComponent } from './event_info/event_info.component';
-
 import { CardsComponent } from './landing/cards/cards.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeMenuComponent } from './landing/home-menu/home-menu.component';
@@ -18,31 +16,34 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { ReactiveFormsModule } from '@angular/forms';
 import {MatIconModule} from '@angular/material/icon';
 import { LandingComponent } from './landing/landing.component';
-
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { EventCreateComponent } from './event-create/event-create.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-
       CardsComponent,
       FooterComponent,
-
       HomeMenuComponent,
       CarouselSearcherComponent,
       LoginComponent,
       RegisterComponent,
       Boton_unirseComponent,
       Event_infoComponent,
+      LandingComponent,
+      EventCreateComponent
    ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
     NoopAnimationsModule,
     MatInputModule,
     MatFormFieldModule,
     ReactiveFormsModule,
-    MatIconModule
-
+    MatIconModule,
+    MDBBootstrapModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

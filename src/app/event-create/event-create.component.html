@@ -1,0 +1,88 @@
+<div class="bg-container">
+  <a class="home-brand" href="#">Logo</a>
+  <div class="container">
+
+    <div class="login-menu">
+
+      <form [formGroup]="profileForm">
+        <h1 class="h3 mb-3 font-weight-normal">Creación de evento</h1>
+        <p>
+          <mat-form-field appearance="legacy">
+            <mat-label>Nombre del evento</mat-label>
+            <input matInput>
+          </mat-form-field>
+        </p>
+        <p>
+          <select class="form-select" aria-label=".form-select-lg example">
+            <option selected>Selecciona tu deporte</option>
+            <option value="1">Fútbol</option>
+            <option value="2">Baloncesto</option>
+            <option value="3">Pádel</option>
+            <option value="4">Tenis</option>
+            <option value="5">Ciclismo</option>
+          </select>
+        </p>
+        <p>
+          <mat-form-field appearance="legacy">
+            <mat-label>Fecha y hora dd/mm/aa</mat-label>
+            <input matInput>
+          </mat-form-field>
+        </p>
+        <p>
+          <mat-form-field appearance="legacy">
+            <mat-label>Lugar</mat-label>
+            <input matInput>
+          </mat-form-field>
+        </p>
+        <p>
+          <mat-form-field appearance="legacy">
+            <mat-label>Nivel de la actividad (1 - 5)</mat-label>
+            <input matInput>
+          </mat-form-field>
+        </p>
+        <p><mat-form-field appearance="legacy">
+          <mat-label>Información del evento</mat-label>
+          <textarea matInput></textarea>
+        </mat-form-field></p>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Crear evento</button>
+      </form>
+
+    </div>
+  </div>
+</div>
+
+<!-- <div class="main-container">
+
+  <div class="registro background-image: ../../../../assets/img/fondo.jpg">
+    <div class="boxes">
+      <h1>CREACIÓN DEL EVENTO</h1>
+      <mat-form-field appearance="fill">
+        <mat-label>Nombre del evento</mat-label>
+        <input matInput>
+      </mat-form-field>
+      <select class="form-select" aria-label=".form-select-lg example">
+        <option selected>Selecciona tu deporte</option>
+        <option value="1">Fútbol</option>
+        <option value="2">Baloncesto</option>
+        <option value="3">Pádel</option>
+        <option value="4">Tenis</option>
+        <option value="5">Ciclismo</option>
+      </select>
+      <p><mat-form-field appearance="fill">
+        <mat-label>Lugar</mat-label>
+        <input matInput>
+      </mat-form-field></p>
+      <p><mat-form-field appearance="fill">
+        <mat-label>Fecha y hora</mat-label>
+        <input matInput>
+      </mat-form-field></p>
+      <p><mat-form-field appearance="fill">
+        <mat-label>Información del evento</mat-label>
+        <textarea matInput></textarea>
+      </mat-form-field></p>
+      <button type="button" class="btn btn-primary">Guardar</button>
+
+    </div>
+  </div>
+
+</div> -->
