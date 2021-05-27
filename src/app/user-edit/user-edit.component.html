@@ -1,0 +1,52 @@
+
+<div class="bg-container">
+  <a class="navbar-brand" href="#">Logo</a>
+  <div class="container">
+    <div class="useredit">
+      <form [formGroup]="profileForm">
+        <h1 class="h3 mb-3 mt-2 font-weight-normal">Mi perfil</h1>
+
+        <div class="form-floating mb-3">
+          <input type="nickname" class="form-control" id="floatingInput" placeholder="nickname">
+          <label for="floatingInput">Nickname</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input type="name" class="form-control" id="floatingIpunt" placeholder="name">
+          <label for="floatingInput">Nombre</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input type="lastname" class="form-control" id="floatingInput" placeholder="lastname">
+          <label for="floatingInput">Apellidos</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="email">
+          <label for="floatingInput">Email</label>
+        </div>
+
+        <label class="sportsLabel" for="floatingInput">Deportes favoritos</label>
+        <section class="favoriteSports">
+          <mat-checkbox class="sport1">Baloncesto</mat-checkbox><br>
+          <mat-checkbox class="sport2">Ciclismo</mat-checkbox><br>
+          <mat-checkbox class="sport3">Fútbol</mat-checkbox><br>
+          <mat-checkbox class="sport4">Pádel</mat-checkbox><br>
+          <mat-checkbox class="sport5 mb-3">Tenis</mat-checkbox>
+        </section>
+
+        <div class="form-floating mb-3">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Descripción</label>
+        </div>
+      </form>
+
+      <div class="uploadphoto">
+        <div class="mb-3">
+          <input class="form-control form-control-sm" id="formFileSm" type="file">
+        </div>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Guardar</button>
+    </div>
+  </div>
+</div>

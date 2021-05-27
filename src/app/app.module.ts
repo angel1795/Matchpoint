@@ -16,18 +16,19 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { ReactiveFormsModule } from '@angular/forms';
 import {MatIconModule} from '@angular/material/icon';
 import { LandingComponent } from './landing/landing.component';
-<<<<<<< HEAD
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { EventCreateComponent } from './event-create/event-create.component';
 import { FormsModule } from '@angular/forms';
-=======
 import { ChatComponent } from './chat/chat.component';
 import { UserprofileComponent } from './userprofile/userprofile.component';
+import { UserEditComponent } from './user-edit/user-edit.component';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import {MatRadioModule} from '@angular/material/radio';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
->>>>>>> c8d98adea955726212e683a4e7646e32f84fefda
 
 @NgModule({
-  declarations: [		
+  declarations: [
     AppComponent,
       CardsComponent,
       FooterComponent,
@@ -38,13 +39,11 @@ import { UserprofileComponent } from './userprofile/userprofile.component';
       RegisterComponent,
       Boton_unirseComponent,
       Event_infoComponent,
-<<<<<<< HEAD
       LandingComponent,
-      EventCreateComponent
-=======
+      EventCreateComponent,
       ChatComponent,
-      UserprofileComponent
->>>>>>> c8d98adea955726212e683a4e7646e32f84fefda
+      UserprofileComponent,
+      UserEditComponent
    ],
   imports: [
     BrowserModule,
@@ -53,8 +52,11 @@ import { UserprofileComponent } from './userprofile/userprofile.component';
     NoopAnimationsModule,
     MatInputModule,
     MatFormFieldModule,
+    MatDatepickerModule,
     ReactiveFormsModule,
     MatIconModule,
+    MatRadioModule,
+    MatCheckboxModule,
     MDBBootstrapModule.forRoot()
   ],
   providers: [],

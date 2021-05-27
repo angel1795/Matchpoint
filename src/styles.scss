@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
 
 $loginLetter: rgb(0, 132, 255);
 
@@ -7,8 +8,12 @@ $loginLetter: rgb(0, 132, 255);
 
 
 html, body { height: 100%;
-  background-image: "../../assets/img/fondo.jpg"; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
+            background-image: "../../assets/img/fondo.jpg";
+          }
+body { margin: 0;
+      //font-family: Roboto, "Helvetica Neue", sans-serif;
+      font-family: 'Days One', sans-serif;
+    }
 
  .mat-form-field-wrapper .mat-form-field-flex {
   border-radius: 22px 0px 0px 22px !important;
@@ -20,6 +25,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
   display: none;
 }
 
+
+.mat-radio-group {
+  color: white;
+}
 
 .mat-form-field-wrapper {
   padding: 0;

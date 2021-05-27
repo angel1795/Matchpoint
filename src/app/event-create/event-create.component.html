@@ -1,8 +1,7 @@
 <div class="bg-container">
-  <a class="home-brand" href="#">Logo</a>
+  <a class="navbar-brand" href="#">Logo</a>
   <div class="container">
-
-    <div class="login-menu">
+    <div class="event-create">
 
       <form [formGroup]="profileForm">
         <h1 class="h3 mb-3 font-weight-normal">Creación de evento</h1>
@@ -30,15 +29,19 @@
         </p>
         <p>
           <mat-form-field appearance="legacy">
-            <mat-label>Lugar</mat-label>
+            <mat-label>Fecha y hora dd/mm/aa</mat-label>
             <input matInput>
           </mat-form-field>
         </p>
         <p>
           <mat-form-field appearance="legacy">
-            <mat-label>Nivel de la actividad (1 - 5)</mat-label>
+            <mat-label>Lugar</mat-label>
             <input matInput>
           </mat-form-field>
+        </p>
+        <p>
+          <label for="customRange2" class="form-label">Nivel de Actividad</label>
+          <input type="range" class="form-range" min="0" max="5" id="customRange2">
         </p>
         <p><mat-form-field appearance="legacy">
           <mat-label>Información del evento</mat-label>

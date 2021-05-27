@@ -1,7 +1,7 @@
 nav {
   padding: 0;
   margin-top: 10px;
-
+  background-color: white !important;
 
   .container {
     padding: 15px 5%;
@@ -17,12 +17,13 @@ nav {
       ul {
         margin-right: 1px;
         margin-left: auto;
+        span{
+          padding: .5rem .2rem;
+        }
         .nav-item{
           display: flex;
 
-          span{
-            padding: .5rem .2rem;
-          }
+
           .nav-link{
             &:hover{
               color: rgb(142, 142, 173);
@@ -46,10 +47,7 @@ nav {
 
             margin: 0;
           }
-          .nav-link::after {
 
-
-          }
 
           .nav-link:hover::before, .nav-link:hover::after {
             border-color: rgb(142, 142, 173);
